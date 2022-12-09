@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AEOTPTextField"
 
-  spec.version      = "1.2.6"
+  spec.version      = "1.2.7"
 
   spec.summary      = "AEOTPTextField is a global framework created by Abdelrhman Eliwa"
 
@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
     spec.homepage         = 'https://github.com/AbdelrhmanKamalEliwa/AEOTPTextField'
      spec.license          = { :type => 'MIT', :file => 'LICENSE' }
      spec.author           = { 'abdelrhmankamaleliwa@gmail.com' => 'abdelrhmankamaleliwa@gmail.com' }
-     spec.source           = { :git => 'https://github.com/AbdelrhmanKamalEliwa/AEOTPTextField', :tag => spec.version.to_s }
+     spec.source           = { :git => 'git@github.com:thandang/AEOTPTextField.git', :branch => 'master' }
 
 
      spec.ios.deployment_target = '12.1'
